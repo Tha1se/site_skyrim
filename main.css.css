@@ -14,6 +14,7 @@ form button {
 
 body, input, textarea {
     font-family: 'Roboto Slab', serif;
+    background-image: url(./images/skybackground.jpg);
 }
 
 header {
@@ -37,6 +38,7 @@ header nav li a {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    color:#ecf0f1;
 }
 
 header .container,
@@ -75,6 +77,7 @@ section p {
     flex-wrap:wrap;
     justify-content:space-between;
     padding: 2%;
+    color: #ecf0f1;
 }
 
 .articles article img{
@@ -91,6 +94,18 @@ section p {
     font-family: 'Roboto Slab', Serif;
 }
 
+.articles article a{
+    color:#fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
 .creation-date{
     background-color: #fff;
     color:black;
@@ -98,7 +113,7 @@ section p {
 }
 
 .social-links img{
-    height: 24px;
+    height: 30px;
 }
 
 .social-links li{
@@ -139,11 +154,11 @@ section h3{
 }
 
 form button {
-    background-color:#393a3f;
-    color: #ecf0f1;
-    border: none;
+    background-color:#c0c2cc;
+    color: #1b2a55;
     cursor: pointer;
     height: 55px;
+    font-weight: bolder;
 }
 
 form button:hover {
